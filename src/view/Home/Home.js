@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Home.css"
-import addIcon from './add.png'
+import addIcon from './plus.png'
 
 function Home() {
     const [tasks,setTasks] = useState([])

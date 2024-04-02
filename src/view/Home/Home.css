@@ -1,5 +1,11 @@
+body{
+    background-color: rgb(238, 234, 247);
+}
 .app-heading{
+    margin: 70px;
     text-align: center;
+    border-bottom: 3px solid black;
+    
 }
 .input-container{
     display: flex;
@@ -17,16 +23,18 @@
     margin-right: 10px;
     width: 350px;
     font-size: 20px;
-    border-radius: 20px;
-    border : 1px solid #000 ;
-    padding: 5 10px ;
+    border-radius: 10px;
+    border : 3px solid #000 ;
+    padding: 5px 20px ;
 }
 .add-icon{
     height: 40px;
     cursor: pointer;
 }
 .task-card{
-    background-color: #66ff99;
+    background-color: palevioletred;
+    color: black;
+    font-size: bolder;
     width: 380px;
     padding: 5px 10px;
     margin: 10px;
